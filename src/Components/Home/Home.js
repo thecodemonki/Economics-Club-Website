@@ -21,7 +21,7 @@ function Home() {
           <li><FaTrophy className="prize-icon" /> 2nd place: $50</li>
           <li><FaTrophy className="prize-icon" /> 3rd place: $25</li>
         </ul>
-        <p>Please fill out the <a href="https://forms.gle/your-google-form-link" target="_blank" rel="noopener noreferrer">Google Form</a> to register.</p>
+        <p>Please fill out the <a href="https://forms.gle/fKkd9oHbztSmgPqA7" target="_blank" rel="noopener noreferrer">Google Form</a> to register.</p>
       </div>
     </div>
   );

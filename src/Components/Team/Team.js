@@ -1,36 +1,42 @@
 import React from 'react';
-import './Team.css'; // Link the CSS file
+import akhil from '../../Assets/akhil.png'
+import yuehang from '../../Assets/yuehang.png'
+import aayan from '../../Assets/aayan.png'
+import owen from '../../Assets/owen.png'
+import kaur from '../../Assets/kaur.jpeg'
+import yashas from '../../Assets/yashas.png'
+import './Team.css'; 
 
 const teamMembers = [
   {
-    name: "John Doe",
+    name: "Parwinder Kaur",
     title: "Teacher",
-    image: "path/to/john_doe.jpg"
+    image: kaur
   },
   {
-    name: "Jane Smith",
-    title: "VP",
-    image: "path/to/jane_smith.jpg"
-  },
-  {
-    name: "Alice Johnson",
-    title: "VP",
-    image: "path/to/alice_johnson.jpg"
-  },
-  {
-    name: "Bob Brown",
+    name: "Owen Hu",
     title: "President",
-    image: "path/to/bob_brown.jpg"
+    image: owen
   },
   {
-    name: "Charlie Davis",
-    title: "Exec",
-    image: "path/to/charlie_davis.jpg"
+    name: "Aayan Rahman",
+    title: "Vice President, Tech Lead",
+    image: aayan
   },
   {
-    name: "Dana White",
-    title: "Exec",
-    image: "path/to/dana_white.jpg"
+    name: "Yuehang Guan",
+    title: "Vice President, Olympaid Lead",
+    image: yuehang
+  },
+  {
+    name: "Akhil Agarwal",
+    title: "Director of Teaching",
+    image: akhil
+  },
+  {
+    name: "Yashas Mehta",
+    title: "Director of Marketing",
+    image: yashas
   }
 ];
 

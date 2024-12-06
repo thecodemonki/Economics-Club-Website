@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h2>Follow Us</h2>
-          <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/aayanrahman/WOSS-Economics-Club-Website" target="_blank" rel="noopener noreferrer">
             <FaGithub className="footer-icon" />
           </a>
           <a href="https://www.instagram.com/wosseconomics" target="_blank" rel="noopener noreferrer">
