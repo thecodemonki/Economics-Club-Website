@@ -7,9 +7,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h2>Contact Us</h2>
-          <p>Email: contact@wosseconomics.hdsb.ca</p>
-          <p>Phone: +1 (416) 456-7890</p>
+          <h2>Join us!</h2>
+          <p>Classroom Code: ujuaf4m</p>
         </div>
         <div className="footer-section">
           <h2>Follow Us</h2>

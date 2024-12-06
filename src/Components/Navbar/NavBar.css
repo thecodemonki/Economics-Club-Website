@@ -41,7 +41,7 @@ ul li::after {
   display: block;
   width: 0;
   height: 2px;
-  background: #C0DFA1; /* White underline */
+  background: #C0DFA1; 
   transition: width 0.3s;
   position: absolute;
   bottom: -5px;
@@ -58,7 +58,7 @@ ul li a {
 }
 
 ul li:hover a {
-  color: #C0DFA1; /* Light blue on hover */
+  color: #C0DFA1; 
 }
 
 /* Responsive Styles */
@@ -70,14 +70,17 @@ ul li:hover a {
   .nav-menu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 60px;
+    top: 0;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
     background-color: #002147; /* Oxford Blue Background */
+    z-index: 1;
   }
 
   .nav-menu.active {

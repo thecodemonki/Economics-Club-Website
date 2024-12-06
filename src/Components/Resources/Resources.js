@@ -24,28 +24,43 @@ const resources = [
     description: "AP Microeconomics Exam Questions – AP Central | College Board"
   },
   {
-    title: "IB Econ HL Exam Questions",
-    link: "https://www.example.com/DP_IB_Economics_HL_Exam_Questions_2020",
-    description: "DP IB Economics: HL Exam Questions 2020"
+    title: "IB Economics HL Questionbank",
+    link: "https://dl.ibdocs.re/IB%20QUESTIONBANKS/6.%20Sixth%20Edition%20-%20Group%204%202025/questionbank/en/teachers/ibdocs2/questionbanks/48-dp-economics/syllabus_sections.html",
+    description: "DP IB Economics: HL exam questionbank"
   },
   {
-    title: "2016 Honors Exam",
-    link: "https://www.example.com/2016_honors_exam.pdf",
-    description: "2016_honors_exam.pdf"
+    title: "IB Economics HL Textbook",
+    link: "https://static1.squarespace.com/static/5e1db2db7fbc921eae5c733f/t/64085c6247b33408fa32810f/1678269544721/ib-academy.nl+Economics+HL.pdf",
+    description: "Condensed IB HL Economics textbook"
   },
   {
-    title: "Columbia Uni Past Tests",
-    link: "https://libguides.college.columbia.edu/economics/sample-tests",
-    description: "Economics - Sample Tests - LibGuides at Columbia College (BC)"
+    title: "Harvard Honours Exams",
+    link: "https://www.economics.harvard.edu/files/economics/files/2016_honors_exam.pdf",
+    description: "Past Exam from Harvard University"
   },
   {
-    title: "Definite Integral Examples",
-    link: "https://www.example.com/definite_integral_examples",
+    title: "UBC Economics Exam",
+    link: "https://econ101.sites.olt.ubc.ca/exams/",
+    description: "Past Exams from UBC"
+  },
+  {
+    title: "Econ + Dal",
+    link: "https://www.econplusdal.com/",
+    description: "Videos from a IB & A Level Economics teacher"
+  },
+  {
+    title: "Columbia College Practice Exams",
+    link: "https://columbiacollege-ca.libguides.com/sampletests",
+    description: "Condensed IB HL Economics textbook"
+  },
+  {
+    title: "AP Calc AB: Definite Integral Practice",
+    link: "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new",
     description: "Definite Integral Calculus Examples, Integration - Basic Introduction, Practice Problems"
   },
   {
-    title: "Derivative Rules",
-    link: "https://www.example.com/derivative_rules",
+    title: "AP Calc AB: Derivative Rules",
+    link: "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new",
     description: "Derivative Rules"
   }
 ];
