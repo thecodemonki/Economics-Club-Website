@@ -25,7 +25,7 @@ const teamMembers = [
   },
   {
     name: "Yuehang Guan",
-    title: "Vice President, Olympaid Lead",
+    title: "Vice President, Olympiad Lead",
     image: yuehang
   },
   {
