@@ -48,10 +48,11 @@
   color: white;
   padding: 30px;
   border-radius: 10px;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; /* Center the section */
 }
 
 .registration-section h2 {
@@ -103,4 +104,34 @@
 
 .registration-section a:hover {
   color: #ffeb3b; /* Lighter yellow on hover */
+}
+
+@media (max-width: 768px) {
+  .registration-section {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .registration-section h2 {
+    font-size: 2em; /* Adjust font size for smaller screens */
+  }
+
+  .registration-section p,
+  .registration-section ul li {
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .registration-section {
+    padding: 15px; /* Further adjust padding for very small screens */
+  }
+
+  .registration-section h2 {
+    font-size: 1.5em; /* Further adjust font size for very small screens */
+  }
+
+  .registration-section p,
+  .registration-section ul li {
+    font-size: 0.9em; /* Further adjust font size for very small screens */
+  }
 }
