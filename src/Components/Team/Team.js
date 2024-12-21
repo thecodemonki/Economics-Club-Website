@@ -1,42 +1,54 @@
 import React from 'react';
-import akhil from '../../Assets/akhil.png'
-import yuehang from '../../Assets/yuehang.png'
-import aayan from '../../Assets/aayan.png'
-import owen from '../../Assets/owen.png'
-import kaur from '../../Assets/kaur.jpeg'
-import yashas from '../../Assets/yashas.png'
+//import stephanie from '../../Assets/stephanie.png'
+//import yuehang from '../../Assets/yuehang.png'
+//import aayan from '../../Assets/aayan.png'
+//import owen from '../../Assets/owen.png'
+///import kaur from '../../Assets/kaur.jpeg'
+//import yashas from '../../Assets/yashas.png'
 import './Team.css'; 
+
+/*
+  https://ibb.co/7z7CYrN
+https://ibb.co/dtSJPCM
+https://ibb.co/JrvVKyB
+https://ibb.co/8PhNYwp
+https://ibb.co/ckfFVyr
+https://ibb.co/JyVF18V
+https://ibb.co/C2rmTQs
+https://ibb.co/Y79gcDp
+https://ibb.co/mDsvxHw
+*/
 
 const teamMembers = [
   {
     name: "Parwinder Kaur",
     title: "Teacher",
-    image: kaur
+    image: 'https://i.ibb.co/xz1WDfC/kaur.jpg'
   },
   {
     name: "Owen Hu",
     title: "President",
-    image: owen
+    image: 'https://i.ibb.co/VMKJwGZ/owen.png'
   },
   {
     name: "Aayan Rahman",
     title: "Vice President, Tech Lead",
-    image: aayan
+    image: 'https://i.ibb.co/6Z6wnDJ/aayan.png'
   },
   {
     name: "Yuehang Guan",
     title: "Vice President, Olympiad Lead",
-    image: yuehang
+    image: 'https://i.ibb.co/JRLZvx5/yuehang.png'
   },
   {
-    name: "Akhil Agarwal",
-    title: "Director of Teaching",
-    image: akhil
+    name: "Stephanie Zheng",
+    title: "Director of Operations",
+    image: 'https://i.ibb.co/GnY2Nd5/stephanie.png'
   },
   {
     name: "Yashas Mehta",
     title: "Director of Marketing",
-    image: yashas
+    image: 'https://i.ibb.co/hfqLtV1/yashas.png'
   }
 ];
 

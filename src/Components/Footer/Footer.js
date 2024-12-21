@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaDiscord } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -17,6 +17,9 @@ const Footer = () => {
           </a>
           <a href="https://www.instagram.com/wosseconomics" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="footer-icon" />
+          </a>
+          <a href="https://discord.gg/Cf3XQS7Kc7" target="_blank" rel="noopener noreferrer">
+            <FaDiscord className="footer-icon" />
           </a>
         </div>
       </div>
