@@ -17,6 +17,8 @@ https://ibb.co/JyVF18V
 https://ibb.co/C2rmTQs
 https://ibb.co/Y79gcDp
 https://ibb.co/mDsvxHw
+
+https://ibb.co/mDsvxHw
 */
 
 const teamMembers = [
@@ -50,6 +52,13 @@ const teamMembers = [
     title: "Director of Marketing",
     image: 'https://i.ibb.co/hfqLtV1/yashas.png'
   }
+  /*
+  {
+    name: "Maxwell Peng",
+    title: "Teaching Director",
+    image: 'https://i.ibb.co/mDsvxHw/maxwell.png'
+  }
+    */
 ];
 
 function Team() {

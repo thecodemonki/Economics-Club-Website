@@ -51,7 +51,7 @@ const resources = [
   {
     title: "Columbia College Practice Exams",
     link: "https://columbiacollege-ca.libguides.com/sampletests",
-    description: "Condensed IB HL Economics textbook"
+    description: "Past papers from Columbia College"
   },
   {
     title: "AP Calc AB: Definite Integral Practice",
