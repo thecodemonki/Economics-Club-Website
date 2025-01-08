@@ -3,13 +3,14 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  background-color: #002147; /* Oxford Blue Background */
+  background-color: #002147;
   padding: 15px 7%;
   position: relative;
+  z-index: 1000;
 }
 
 .logo {
-  width: 50px; /* Adjust the width to make the logo smaller */
+  width: 50px;
   cursor: pointer;
 }
 
@@ -17,18 +18,21 @@
   display: none;
   font-size: 24px;
   cursor: pointer;
-  color: white; /* White color for better contrast */
+  color: white;
+  z-index: 1002;
 }
 
-ul {
+.nav-menu {
   flex: 1;
   list-style: none;
   text-align: right;
   display: flex;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
-ul li {
+.nav-item {
   display: inline-block;
   margin: 10px 20px;
   font-size: 20px;
@@ -36,55 +40,71 @@ ul li {
   position: relative;
 }
 
-ul li::after {
+.nav-item::after {
   content: '';
   display: block;
   width: 0;
   height: 2px;
-  background: #C0DFA1; 
+  background: #C0DFA1;
   transition: width 0.3s;
   position: absolute;
   bottom: -5px;
   left: 0;
 }
 
-ul li:hover::after {
+.nav-item:hover::after {
   width: 100%;
 }
 
-ul li a {
+.nav-link {
   text-decoration: none;
-  color: white; /* White text for better contrast */
+  color: white;
 }
 
-ul li:hover a {
-  color: #C0DFA1; 
+.nav-item:hover .nav-link {
+  color: #C0DFA1;
 }
 
-/* Responsive Styles */
+.menu-overlay {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
   }
 
+  .menu-overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-    background-color: #002147; /* Oxford Blue Background */
-    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background-color: #002147;
+    z-index: 1001;
+    padding-top: 60px;
   }
 
   .nav-menu.active {
     left: 0;
+    opacity: 1;
   }
 
   .nav-item {
@@ -94,6 +114,7 @@ ul li:hover a {
 
   .nav-link {
     font-size: 24px;
-    color: white; /* White text for better contrast */
+    padding: 10px 0;
+    display: block;
   }
 }
