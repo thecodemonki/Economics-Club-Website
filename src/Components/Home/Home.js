@@ -47,7 +47,7 @@ function Home() {
         <p>Format: Online</p>
         <p>Questions: 40 MCQ, 10 calculated questions</p>
         <p>Date: Jan 12th 2025, 1-3pm (Sunday)</p>
-        <p>Prize pool: $200 total</p>
+        <p>Prize pool: $150 total</p>
         <ul className="prizes">
           <li><FaTrophy className="prize-icon" /> 1st place: $100</li>
           <li><FaTrophy className="prize-icon" /> 2nd place: $50</li>

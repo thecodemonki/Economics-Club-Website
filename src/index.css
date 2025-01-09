@@ -59,7 +59,7 @@ ul li::after {
   display: block;
   width: 0;
   height: 2px;
-  background: black;
+  background: #EDF7B5;
   transition: width 0.3s;
   position: absolute;
   bottom: -5px;

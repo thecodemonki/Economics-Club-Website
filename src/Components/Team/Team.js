@@ -43,23 +43,35 @@ const teamMembers = [
     image: 'https://i.ibb.co/JRLZvx5/yuehang.png'
   },
   {
-    name: "Stephanie Zheng",
-    title: "Director of Operations",
-    image: 'https://i.ibb.co/GnY2Nd5/stephanie.png'
+    name: "Yashas Mehta",
+    title: "Vice President of Outreach",
+    image: 'https://i.ibb.co/hfqLtV1/yashas.png'
   },
   {
-    name: "Yashas Mehta",
+    name: "Stephanie Zheng",
     title: "Director of Marketing",
-    image: 'https://i.ibb.co/hfqLtV1/yashas.png'
-  }
-  /*
+    image: 'https://i.ibb.co/GnY2Nd5/stephanie.png'
+  },
   {
     name: "Maxwell Peng",
     title: "Teaching Director",
     image: 'https://i.ibb.co/mDsvxHw/maxwell.png'
+  },
+  {
+    name: "Joshua Lin",
+    title: "Questions Commitee",
+    image: 'https://i.ibb.co/z5jT0mk/josh.png'
+  },
+  {
+    name: "Adi Arora",
+    title: "Questions Commitee",
+    image: 'https://i.ibb.co/n3QP3jc/adi-1.png'
   }
-    */
+
 ];
+
+// <a href="https://ibb.co/dc1wzfh"><img src="https://i.ibb.co/z5jT0mk/josh.png" alt="josh" border="0"></a>
+// <a href="https://ibb.co/rb5dbH6"><img src="https://i.ibb.co/n3QP3jc/adi-1.png" alt="adi-1" border="0"></a>
 
 function Team() {
   return (
